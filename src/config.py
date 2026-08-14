@@ -14,7 +14,7 @@ def _get_secret(key: str, default: str = "") -> str:
 #: URL Web App của Google Apps Script - backend chính
 GSHEETS_URL: str = _get_secret(
     "GSHEETS_URL",
-    "https://script.google.com/macros/s/AKfycbxXgqO4nd5HIDeLeyGY00uyOsxqFKJg-6stBWIzohu1FQ3KJTsS4_3PfzRx22qz3KqZ/exec"
+    "https://script.google.com/macros/s/AKfycbxebS7oMaU_98rT3v_I-bGjwjRTDX7Q8L2o9zDSdLQ81mcE7nQG3nUyaXZW3SwPtVMZ/exec"
 )
 
 ADMIN_PASSWORD: str = _get_secret("ADMIN_PASSWORD", "123456")
