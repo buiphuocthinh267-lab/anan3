@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Môi trường ảo ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Công cụ kiểm thử / lint ---
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Bí mật (KHÔNG BAO GIỜ commit) ---
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- Dữ liệu runtime của ứng dụng ---
+data/
+
+# --- IDE / Editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Hệ điều hành ---
+.DS_Store
+Thumbs.db
+desktop.ini

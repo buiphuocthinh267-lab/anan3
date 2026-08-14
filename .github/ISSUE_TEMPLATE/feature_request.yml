@@ -1,0 +1,30 @@
+name: ✨ Đề xuất tính năng
+description: Đề xuất một ý tưởng mới cho dự án
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đã đóng góp ý tưởng! Vui lòng mô tả rõ ràng để chúng tôi dễ thảo luận.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Vấn đề cần giải quyết
+      description: Tính năng này giúp giải quyết vấn đề gì? (VD: em muốn hỏi bài nhưng...)
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Giải pháp bạn đề xuất
+      description: Bạn muốn tính năng hoạt động như thế nào?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Phương án thay thế đã cân nhắc
+      description: Có cách nào khác giải quyết cùng vấn đề không?

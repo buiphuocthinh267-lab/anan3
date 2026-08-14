@@ -1,0 +1,51 @@
+name: 🐛 Báo lỗi
+description: Báo cáo một lỗi để chúng tôi khắc phục
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đã dành thời gian báo lỗi! Vui lòng điền đầy đủ thông tin bên dưới.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Mô tả lỗi
+      description: Mô tả ngắn gọn lỗi gặp phải.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Các bước tái hiện
+      description: |
+        Ví dụ:
+        1. Vào trang '...'
+        2. Bấm nút '...'
+        3. Thấy lỗi '...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Kết quả mong đợi
+      description: Bạn mong muốn điều gì xảy ra?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Ảnh chụp màn hình
+      description: Nếu có, đính kèm ảnh giúp việc xử lý nhanh hơn.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Môi trường
+      description: "Ví dụ: Windows 11 / Chrome 126, hay Streamlit Cloud"
+      placeholder: Hệ điều hành, trình duyệt, phiên bản
+    validations:
+      required: true

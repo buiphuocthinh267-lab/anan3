@@ -1,0 +1,7 @@
+# Cấu hình Streamlit toàn cục cho dự án.
+# Ẩn thanh điều hướng mặc định vì app dùng sidebar điều hướng riêng.
+[client]
+showSidebarNavigation = false
+
+[server]
+headless = true
