@@ -21,7 +21,7 @@ GSHEETS_URL: str = _get_secret(
     "https://script.google.com/macros/s/AKfycbw8B_jWJnuKR26j5WWr2Cflb3svbdN71mrmdA-jOS29IByxqTdbQw9OjwJ7LlqyizXE/exec",
 )
 
-ADMIN_PASSWORD: str = _get_secret("ADMIN_PASSWORD")
+ADMIN_PASSWORD: str = _get_secret("2406978")
 OPENAI_API_KEY: str = _get_secret("OPENAI_API_KEY")
 BOTPRESS_SCRIPT_URL: str = _get_secret("BOTPRESS_SCRIPT_URL")
 REQUEST_TIMEOUT_SECONDS: int = 10
